@@ -1,0 +1,142 @@
+/*This is for universal */
+*{
+  padding:0px;
+  margin:0px;
+  
+}
+/* background */
+.wbfront-1{
+  width:100%;
+  height:550px;
+  background-color:#8A2BE2;
+}
+/*logo styling start*/
+#logo{
+  cursor: pointer;
+  margin-left: 50px;
+}
+/*All about the first heading */ 
+.heading-1{
+  font-size:100px;
+  margin:80px;
+  margin-left:95px;
+  color: white;
+  cursor:not-allowed;
+  text-align:left;
+  text-shadow: 2px 2px #ff0000;
+}
+/* this is for button */
+.wbfront-1 a{
+  width:160px;
+  height:43px;
+  color: #F5F5DC;
+  text-align: center;
+  padding-top:15px;
+  font-size: 15px;
+}
+/* this is for button */
+  .wbfront-1 a{
+  position: absolute;
+  top: 65%;
+  left: 70%;
+  background-color:green;
+  border-radius:10px;
+  border:none;
+  outline:none;
+  text-decoration:none;
+  font-size: 18px;
+}
+/*End here */
+/* This is for action */
+.wbfront-1 a{
+  cursor:pointer;
+}
+/* This is for image styling */
+.webinar-image-001{
+  width:410px;
+  height:250px;
+  border-radius:25px;
+  position:absolute;
+  right:7%;
+  box-shadow: 6px 5px black;
+}
+/* This is for action */
+.wbfront-1 a:hover{
+  border: 2px solid white;
+  background-color:#000000;
+  font-style: normal;
+  font-size: 18px;
+}
+.difference{
+  width: 100%;
+  height:2px;
+}
+/*box for About us */
+.About-us-iha{
+  background-color:#8A2BE2;
+  height: 500px;
+  padding-left:60px;
+  color:#FFFFFF;
+}
+/* main heading */
+#heading-about-01{
+  font-size:40px;
+  text-align: center;
+  text-shadow: 4px 2px black;
+  padding-bottom:15px;
+}
+/*child heading */
+.heading-about-02{
+  font-size:25px;
+  padding:13px;
+  text-decoration:underline 3px solid black;
+ }
+/*text style */
+.text-1{
+  font-size:1.2em;
+}
+/* Media query for the front page start here */
+@media screen and (max-width:540px){
+  .wbfront-1{
+    height:134%;
+   }
+  #logo{
+    margin-left:20px;
+    }
+  .heading-1{
+    font-size:60px;
+    margin:50px;
+    }
+  /* For button in small device */
+  .wbfront-1 a{
+    width:140px;
+    height:35px;
+    position: absolute;
+    top:118%;
+    left:30%;
+   }
+  /*For image in small device */
+ .webinar-image-001{
+   width: 330px;
+    height: 190px;
+    position: absolute;
+    top:80%;
+    align-items:center;
+    box-shadow:5px 4px black;
+  }
+  /*box for About us */
+  .About-us-iha{
+    height:600px;
+    padding:15px;
+  }
+  /* main heading */
+  #heading-about-01{
+  font-size:30px;
+  padding-bottom:10px;  
+  }
+}
+
+
+
+
+
