@@ -54,6 +54,7 @@
 .webinar-image-001{
   width:410px;
   height:250px;
+  margin-top:20px;
   border-radius:25px;
   position:absolute;
   right:7%;
@@ -72,7 +73,7 @@
 }
 /*box for About us */
 .About-us-iha{
-  background-color:#8A2BE2;
+  background-color:#0c0f2d;
   height: 500px;
   padding-left:60px;
   color:#FFFFFF;
@@ -111,7 +112,7 @@
     width:140px;
     height:35px;
     position: absolute;
-    top:118%;
+    top:114%;
     left:30%;
    }
   /*For image in small device */
@@ -119,8 +120,8 @@
    width: 330px;
     height: 190px;
     position: absolute;
-    top:80%;
-    align-items:center;
+    top:70%;
+    left:15%;
     box-shadow:5px 4px black;
   }
   /*box for About us */
