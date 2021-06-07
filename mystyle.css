@@ -71,29 +71,41 @@
   width: 100%;
   height:2px;
 }
-/*box for About us */
-.About-us-iha{
-  background-color:#0c0f2d;
+.body{
+  background-color: 0c0f2d;
+  width:100%;
   height: 500px;
-  padding-left:60px;
-  color:#FFFFFF;
 }
-/* main heading */
-#heading-about-01{
-  font-size:45px;
+.heading{
   text-align: center;
-  text-shadow: 4px 2px black;
-  padding-bottom:15px;
+  font-size:50px;
+  color: #FFFFFF;
 }
-/*child heading */
-.heading-about-02{
-  font-size:25px;
-  padding:13px;
-  text-decoration:underline 3px solid black;
- }
-/*text style */
-.text-1{
-  font-size:1.3em;
+.about_us{
+  margin:45px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.content{
+  width: 300px;
+  height:300px;
+  background-color:#FFFFFF;
+  border: 2px solid black;
+  text-align:center;
+  font-size:1.2em;
+  color:#000000;
+  flex-direction: row;
+  align-items: center;
+  border-radius:12px;
+}
+.heading-2{
+  font-size:30px;
+  padding:30px;
+}
+.matter{
+  font-size:20px;
+  padding:15px;
 }
 /* Media query for the front page start here */
 @media screen and (max-width:540px){
@@ -124,19 +136,16 @@
     left:15%;
     box-shadow:5px 4px black;
   }
-  /*box for About us */
-  .About-us-iha{
-    height:600px;
-    padding:15px;
-  }
-  /* main heading */
-  #heading-about-01{
-  font-size:30px;
-  padding-bottom:10px;  
-  }
+ .about{
+   flex-direction:coloum;
+ }
+ .body{
+   height:1050px;
+ } 
+ .heading-2{
+   padding:13px;
+ }
+ .heading{
+   font-size:40px;
+ }
 }
-
-
-
-
-
